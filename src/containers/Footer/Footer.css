@@ -1,0 +1,110 @@
+.footer-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+.footer-widgets {
+    background-color: var(--wp--preset--color--bg-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252525;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 500;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.footer-rights__content {
+    font-size: var(--wp--preset--font-size--small);
+    color: var(--wp--preset--color--pale-pink);
+    margin: 0;
+    background-color: var(--wp--preset--color--bg-color);
+}
+
+.footer-widgets__list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-widgets__item {
+    text-align: left;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 300;
+}
+
+.footer-widgets__item-title {
+    margin-right: 3px;
+}
+
+.footer-widgets__icon {
+    margin-right: 5px;
+}
+
+.footer-widgets__support-item {
+    color: black;
+    font-size: var(--wp--preset--font-size--small);
+    font-weight: 300;
+}
+
+.social-list ul {
+    list-style: none;
+    display: flex;
+}
+
+.social-list ul li {
+    margin-right: 10px;
+}
+
+
+/* Chỉnh kích thước của đầu vào email */
+.wpcf7-form-control.wpcf7-email {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Chỉnh kích thước của nút Đăng ký */
+.wpcf7-submit {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Định dạng nút khi hover */
+.wpcf7-submit:hover {
+    background-color: #005bb6;
+}
+
+/* Định dạng container chứa đầu vào email và nút Đăng ký */
+.flex-row.medium-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Định dạng cột chứa đầu vào email */
+.flex-col.flex-grow {
+    flex: 1;
+    margin-right: 10px;
+    /* Khoảng cách giữa cột và cột kế tiếp */
+}
+
+/* Xóa khoảng cách giữa các đoạn */
+p {
+    margin: 0;
+}
+
+/* Tùy chỉnh cho spinner */
+.wpcf7-spinner {
+    display: none;
+    /* Ẩn spinner mặc định của Contact Form 7 */
+}

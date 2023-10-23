@@ -1,0 +1,103 @@
+.top-bar {
+    background-color: #00a2f9;
+}
+
+.container {
+    display: flex;
+    min-height: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 1170px;
+}
+
+.top-bar__item-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.top-bar__item-list li {
+    margin-right: 10px;
+    font-size: var(--wp--preset--font-size--small);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-input {
+    flex: 1;
+    max-width: 500px;
+}
+
+.cart {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+}
+
+.icon-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #0073e6;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.icon-circle svg {
+    font-size: 20px;
+    color: #fff;
+}
+
+.phone-content p {
+    margin-right: 40px;
+}
+
+.category-bar {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.category-bar__container {
+    display: flex;
+}
+
+.category-bar__container h3 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background-color: #2481c8;
+    color: white;
+}
+
+.list-title {
+    display: flex;
+    list-style: none;
+}
+
+.list-title li {
+    margin-right: 20px;
+}
+
+.title-item {
+    margin: 0;
+    font-weight: 500;
+    color: #015ca2;
+}
+
+.down-icon {
+    margin-left: 5px;
+}
