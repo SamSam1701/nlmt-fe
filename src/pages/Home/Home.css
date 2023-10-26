@@ -1,0 +1,42 @@
+.title-category__list {
+    list-style: none;
+    border: 1px solid #ddd;
+    height: 409px;
+    overflow: auto;
+    background: #fff;
+    scrollbar-width: thin;
+    /* Width of the scrollbar (Mozilla Firefox) */
+    scrollbar-color: #805b80 transparent;
+    /* Color of the scrollbar (track and thumb) */
+    padding: 0;
+    top: 0;
+}
+
+.title-category__list::-webkit-scrollbar {
+    width: 4px;
+    /* Width of the scrollbar (Webkit browsers like Chrome/Safari) */
+}
+
+.title-category__list::-webkit-scrollbar-track {
+    background: transparent;
+    /* Color of the scrollbar track */
+}
+
+.title-category__list::-webkit-scrollbar-thumb {
+    background: #805b80;
+    /* Color of the scrollbar thumb */
+}
+
+.title-category__list li {
+    color: #805b80;
+}
+
+.title-category__link {
+    padding: 10px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-weight: 500;
+    color: #805b80;
+}

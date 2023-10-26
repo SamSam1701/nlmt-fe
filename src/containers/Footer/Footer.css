@@ -22,6 +22,7 @@
     color: var(--wp--preset--color--pale-pink);
     margin: 0;
     background-color: var(--wp--preset--color--bg-color);
+    text-align: center;
 }
 
 .footer-widgets__list {
@@ -52,6 +53,7 @@
 .social-list ul {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 .social-list ul li {

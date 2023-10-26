@@ -42,8 +42,10 @@ const Header = () => {
 
             </section>
             <section className="category-bar">
-                <div className="category-bar__container">
-                    <h3>DANH MỤC SẢN PHẨM</h3>
+                <div className="category-bar__container container">
+                    <div className="title-category">
+                        <h3>DANH MỤC SẢN PHẨM</h3>
+                    </div>
                     <ul className="list-title">
                         <li><h4 className="title-item">TRANG CHỦ</h4></li>
                         <li><h4 className="title-item">GIỚI THIỆU</h4></li>
